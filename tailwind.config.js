@@ -4,11 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        grey: "#EEE",
+        "grey": "#EEE",
         "grey-dark": "#666",
-        orange: "#FFB400",
-        dark: "#111111",
+        "orange": "#FFB400",
+        "dark": "#111111",
       },
+    },
+    shadow: {
+      "shadow": "0 0 10px rgba(0, 0, 0, 0.5)",
     },
   },
   plugins: [],

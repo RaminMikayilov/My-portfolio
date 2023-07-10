@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center">
+    <div className="min-h-screen flex flex-col items-center justify-center">
       <img
         src={profile}
         alt="Ramin"
