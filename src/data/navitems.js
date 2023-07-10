@@ -1,20 +1,24 @@
-import { FaHome, FaUser, FaBriefcase } from "react-icons/fa";
+import { FaHome, FaUser, FaBriefcase, FaEnvelopeOpen } from "react-icons/fa";
 
 export const navitems = [
   {
     name: "Home",
-    icon: <FaHome />,
+    icon: FaHome,
+    path: "/",
   },
   {
     name: "About",
-    icon: <FaUser />,
+    icon: FaUser,
+    path: "/about",
   },
   {
     name: "Portfolio",
-    icon: <FaBriefcase />,
+    icon: FaBriefcase,
+    path: "/portfolio",
   },
   {
     name: "Contact",
-    icon: <FaHome />,
+    icon: FaEnvelopeOpen,
+    path: "/contact",
   },
 ];
