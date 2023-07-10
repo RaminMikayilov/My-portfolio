@@ -1,13 +1,20 @@
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ThemeSwitcher from "./components/ThemeSwitcher";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <>
-      <h1 className="p-10">Title</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo aliquam
-        neque, dolore expedita officia temporibus facere delectus veniam vero
-        commodi quo at maiores sapiente. Culpa esse soluta eum. Quos, nesciunt?
-      </p>
-    </>
+    <BrowserRouter>
+      <ThemeSwitcher />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/about" element={<About />} /> */}
+        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+      <Navbar />
+    </BrowserRouter>
   );
 }
 
