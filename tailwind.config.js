@@ -14,6 +14,7 @@ export default {
         grey: "#EEE",
         "grey-dark": "#666",
         orange: "#FFB400",
+        dgrey: "#4B4B4B",
         dark: "#111111",
       },
     },
