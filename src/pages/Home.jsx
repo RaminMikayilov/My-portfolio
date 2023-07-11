@@ -7,7 +7,7 @@ const Home = () => {
       <img
         src={profile}
         alt="Ramin"
-        className="rounded-full w-[230px] h-[230px] sm:w-[270px] sm:h-[270px] object-cover border-4 border-grey md:mb-3 lg:rounded-3xl lg:border-none lg:w-[360px] xl:w-[430px] 2xl:w-[470px] lg:h-[88vh] lg:mb-0"
+        className="rounded-full w-[230px] h-[230px] sm:w-[270px] sm:h-[270px] object-cover border-4 border-grey md:mb-3 lg:rounded-3xl lg:border-none lg:w-[360px] xl:w-[430px] 2xl:w-[470px] lg:h-[88vh] lg:mb-0 z-10"
       />
 
       <div className="flex items-center flex-col lg:items-start lg:max-w-[500px] xl:max-w-[580px] 2xl:max-w-[620px]">
@@ -22,7 +22,7 @@ const Home = () => {
           responsive and mobile first websites.
         </p>
 
-        <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16">
+        <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16 z-10">
           more about me
           <span className="p-5 bg-orange text-white absolute right-[-1px] top-[-1px] rounded-full">
             <FaArrowRight className="text-lg font-bold rounded-full" />
@@ -31,7 +31,7 @@ const Home = () => {
       </div>
 
       {/* polygon for background */}
-      <div className="hidden lg:block [clip-path:polygon(0%_0%,42%_0%,100%_100%,0%_100%)] bg-orange lg:w-[340px] xl:w-[370px] 2xl:w-[400px] h-screen absolute -z-10 left-0"></div>
+      <div className="hidden lg:block [clip-path:polygon(0%_0%,47%_0%,100%_100%,0%_100%)] bg-orange lg:w-[340px] xl:w-[370px] 2xl:w-[400px] h-screen absolute left-0"></div>
     </div>
   );
 };
