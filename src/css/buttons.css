@@ -1,6 +1,7 @@
 .button {
   overflow: hidden;
   position: relative;
+  text-transform: uppercase;
 }
 
 .button::after {
