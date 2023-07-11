@@ -2,6 +2,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Home from "./pages/Home";
+import "./css/buttons.css";
 
 function App() {
   return (
