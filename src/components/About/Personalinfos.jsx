@@ -3,13 +3,11 @@ import { FaDownload } from "react-icons/fa";
 
 const Personalinfos = () => {
   return (
-    <div>
-      <h1 className="uppercase text-orange text-center text-4xl font-extrabold py-20">
-        <span className="text-grey-dark">about</span> me
+    <div className="text-grey-dark">
+      <h1 className="uppercase text-center text-4xl font-extrabold py-20">
+        about <span className="text-orange">me</span>
       </h1>
-      <h2 className="uppercase text-grey-dark text-xl font-semibold">
-        personal infos
-      </h2>
+      <h2 className="uppercase text-xl font-semibold">personal infos</h2>
 
       <img
         src={profile}
@@ -17,7 +15,7 @@ const Personalinfos = () => {
         className="rounded-full w-[230px] h-[230px] sm:w-[250px] sm:h-[250px] object-cover border-4 border-grey md:hidden mx-auto my-5"
       />
 
-      <div className="flex text-grey-dark text-base font-light">
+      <div className="flex text-base font-light">
         <div className="space-y-4 flex-1">
           <p>
             First Name:{" "}
