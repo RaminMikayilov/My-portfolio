@@ -1,5 +1,6 @@
 import profile from "../../assets/images/profile.jpeg";
 import { FaDownload } from "react-icons/fa";
+import CoolButton from "../CoolButton";
 
 const Personalinfos = () => {
   return (
@@ -60,13 +61,10 @@ const Personalinfos = () => {
               </span>
             </p>
           </div>
-
-          <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16 ml-1 my-10">
-            download cv
-            <span className="p-5 bg-orange text-white absolute right-[-1px] top-[-1px] rounded-full">
-              <FaDownload className="text-lg font-bold rounded-full" />
-            </span>
-          </button>
+          
+          <div className="ml-1 my-10">
+            <CoolButton text="download cv" Icon={FaDownload} />
+          </div>
         </div>
 
         <div className="uppercase grid grid-cols-2 lg:grid-cols-1 lg:col-span-1 gap-5 sm:gap-8">
