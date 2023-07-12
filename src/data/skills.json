@@ -1,0 +1,41 @@
+[
+  {
+    "name": "html",
+    "percentage": "90"
+  },
+
+  {
+    "name": "css",
+    "percentage": "90"
+  },
+
+  {
+    "name": "bootstrap",
+    "percentage": "80"
+  },
+
+  {
+    "name": "tailwind css",
+    "percentage": "85"
+  },
+
+  {
+    "name": "javascript",
+    "percentage": "82"
+  },
+
+  {
+    "name": "typescript",
+    "percentage": "74"
+  },
+
+  {
+    "name": "react",
+    "percentage": "81"
+  },
+
+  {
+    "name": "redux",
+    "percentage": "75"
+  }
+]
