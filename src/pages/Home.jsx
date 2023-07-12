@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20">
+    <div className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20 mb-20 xs:mb-0">
       <img
         src={profile}
         alt="Ramin"
@@ -22,7 +22,7 @@ const Home = () => {
           responsive and mobile first websites.
         </p>
 
-        <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16 z-10">
+        <button className="button font-semibold text-grey-dark bg-white border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16">
           more about me
           <span className="p-5 bg-orange text-white absolute right-[-1px] top-[-1px] rounded-full">
             <FaArrowRight className="text-lg font-bold rounded-full" />
