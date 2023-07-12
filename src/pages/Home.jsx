@@ -1,6 +1,6 @@
 import profile from "../assets/images/profile.jpeg";
 import { FaArrowRight } from "react-icons/fa";
-import CoolButton from "../components/CoolButton";
+import CoolButton from "../components/CoolButton/CoolButton";
 
 const Home = () => {
   return (

@@ -1,9 +1,8 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import "./css/buttons.css";
 
 function App() {
   return (
