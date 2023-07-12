@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { navitems } from "../data/navitems";
+import { navitems } from "../../data/navitems";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
