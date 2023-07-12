@@ -1,5 +1,6 @@
 import Personalinfos from "../components/About/Personalinfos";
 import Skills from "../components/About/Skills";
+import Experience from "../components/About/Experience";
 
 const About = () => {
   return (
@@ -7,6 +8,8 @@ const About = () => {
       <Personalinfos />
       <hr className="w-1/2 mx-auto my-16" />
       <Skills />
+      <hr className="w-1/2 mx-auto my-16" />
+      <Experience />
     </div>
   );
 };
