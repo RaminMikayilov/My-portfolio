@@ -4,57 +4,98 @@ import { FaDownload } from "react-icons/fa";
 const Personalinfos = () => {
   return (
     <div className="text-grey-dark">
-      <h1 className="uppercase text-center text-4xl font-extrabold py-20">
+      <h1 className="uppercase text-center text-4xl sm:text-6xl font-extrabold py-20">
         about <span className="text-orange">me</span>
       </h1>
-      <h2 className="uppercase text-xl font-semibold">personal infos</h2>
 
-      <img
-        src={profile}
-        alt="Ramin"
-        className="rounded-full w-[230px] h-[230px] sm:w-[250px] sm:h-[250px] object-cover border-4 border-grey md:hidden mx-auto my-5"
-      />
+      <div className="grid grid-cols-1 lg:grid-cols-3">
+        <div className="lg:col-span-2">
+          <h2 className="uppercase text-xl sm:text-2xl sm:pb-6 font-semibold">
+            personal infos
+          </h2>
 
-      <div className="flex text-base font-light">
-        <div className="space-y-4 flex-1">
-          <p>
-            First Name:{" "}
-            <span className="font-medium block sm:inline">Ramin</span>
-          </p>
-          <p>
-            Age: <span className="font-medium block sm:inline">20 years</span>
-          </p>
-          <p>
-            Freelance:{" "}
-            <span className="font-medium text-orange block sm:inline">
-              Available
+          <img
+            src={profile}
+            alt="Ramin"
+            className="rounded-full w-[230px] h-[230px] sm:hidden object-cover border-4 border-grey mx-auto my-5"
+          />
+
+          <div className="text-base font-light grid grid-cols-2 gap-y-4 sm:gap-y-5">
+            <p>
+              First Name:{" "}
+              <span className="font-medium block sm:inline">Ramin</span>
+            </p>
+
+            <p>
+              Last Name:{" "}
+              <span className="font-medium block sm:inline">Mikayilov</span>
+            </p>
+
+            <p>
+              Age: <span className="font-medium block sm:inline">20 years</span>
+            </p>
+            <p>
+              Address:{" "}
+              <span className="font-medium block sm:inline">Azerbaijan</span>
+            </p>
+            <p>
+              Language:{" "}
+              <span className="font-medium block sm:inline">English</span>
+            </p>
+            <p className="hidden sm:block">
+              Email:{" "}
+              <span className="font-medium inline">
+                raminmikayilovdev@gmail.com
+              </span>
+            </p>
+            <p className="hidden sm:block">
+              Phone:{" "}
+              <span className="font-medium inline">(+994)55 836 26 88</span>
+            </p>
+
+            <p>
+              Freelance:{" "}
+              <span className="font-medium text-orange block sm:inline">
+                Available
+              </span>
+            </p>
+          </div>
+
+          <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16 ml-1 my-10">
+            download cv
+            <span className="p-5 bg-orange text-white absolute right-[-1px] top-[-1px] rounded-full">
+              <FaDownload className="text-lg font-bold rounded-full" />
             </span>
-          </p>
+          </button>
         </div>
 
-        <div className="space-y-4 flex-1">
-          <p>
-            Last Name:{" "}
-            <span className="font-medium block sm:inline">Mikayilov</span>
-          </p>
-          <p>
-            Address:{" "}
-            <span className="font-medium block sm:inline">Azerbaijan</span>
-          </p>
-
-          <p>
-            Language:{" "}
-            <span className="font-medium block sm:inline">English</span>
-          </p>
+        <div className="uppercase grid grid-cols-2 lg:grid-cols-1 lg:col-span-1 gap-5 sm:gap-8">
+          <div className="p-5 sm:pl-10 sm:py-7 border-[#ddd] border-[1px] rounded-md hover:shadow-md duration-300">
+            <p className="text-orange text-5xl font-extrabold">
+              1<span className="font-semibold">+</span>
+            </p>
+            <div className="flex sm:space-x-5">
+              {/* line */}
+              <div className="bg-[#777] w-[30px] h-[1px] my-3 hidden sm:block"></div>
+              <p>
+                years of <br /> experience
+              </p>
+            </div>
+          </div>
+          <div className="p-5 border-[#ddd] border-[1px] rounded-md hover:shadow-md duration-300">
+            <p className="text-orange text-5xl font-extrabold">
+              5<span className="font-semibold">+</span>
+            </p>
+            <div className="flex sm:space-x-5">
+              {/* line */}
+              <div className="bg-[#777] w-[30px] h-[1px] my-3 hidden sm:block"></div>
+              <p>
+                completed <br /> projects
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <button className="button font-semibold text-grey-dark border-orange hover:text-white duration-300 border-2 rounded-full py-4 pl-8 pr-16 ml-1 mt-10">
-        download cv
-        <span className="p-5 bg-orange text-white absolute right-[-1px] top-[-1px] rounded-full">
-          <FaDownload className="text-lg font-bold rounded-full" />
-        </span>
-      </button>
     </div>
   );
 };
