@@ -1,0 +1,11 @@
+.project__card:hover {
+  cursor: pointer;
+}
+
+.project__card:hover img {
+  transform: scale(1.1);
+}
+
+.project__card img {
+  transition: all 0.5s ease-in-out;
+}
