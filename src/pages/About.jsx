@@ -4,7 +4,7 @@ import Experience from "../components/About/Experience";
 
 const About = () => {
   return (
-    <div className="mb-24 px-5 max-w-[1200px] mx-auto">
+    <div className="mb-24 lg:mb-16 px-5 max-w-[1200px] mx-auto">
       <Personalinfos />
       <hr className="w-1/2 mx-auto my-16 lg:my-[73px]" />
       <Skills />
