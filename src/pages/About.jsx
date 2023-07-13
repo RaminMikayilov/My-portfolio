@@ -8,7 +8,7 @@ const About = () => {
       <Personalinfos />
       <hr className="w-1/2 mx-auto my-16 lg:my-[73px]" />
       <Skills />
-      <hr className="w-1/2 mx-auto my-16" />
+      <hr className="w-1/2 mx-auto my-16 lg:my-[73px]" />
       <Experience />
     </div>
   );
