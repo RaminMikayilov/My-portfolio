@@ -1,6 +1,7 @@
 import profile from "../../assets/images/profile.jpeg";
 import { FaDownload } from "react-icons/fa";
 import CoolButton from "../CoolButton/CoolButton";
+import InfoCard from "./other/InfoCard";
 
 const Personalinfos = () => {
   return (
@@ -68,30 +69,8 @@ const Personalinfos = () => {
         </div>
 
         <div className="uppercase grid grid-cols-2 lg:grid-cols-1 lg:col-span-1 gap-5 sm:gap-8">
-          <div className="p-5 sm:pl-10 sm:py-7 border-[#ddd] border-[1px] rounded-md hover:shadow-md duration-300">
-            <p className="text-orange text-5xl font-extrabold">
-              1<span className="font-semibold">+</span>
-            </p>
-            <div className="flex sm:space-x-5">
-              {/* line */}
-              <div className="bg-[#777] w-[30px] h-[1px] my-3 hidden sm:block"></div>
-              <p>
-                years of <br /> experience
-              </p>
-            </div>
-          </div>
-          <div className="p-5 border-[#ddd] border-[1px] rounded-md hover:shadow-md duration-300">
-            <p className="text-orange text-5xl font-extrabold">
-              5<span className="font-semibold">+</span>
-            </p>
-            <div className="flex sm:space-x-5">
-              {/* line */}
-              <div className="bg-[#777] w-[30px] h-[1px] my-3 hidden sm:block"></div>
-              <p>
-                completed <br /> projects
-              </p>
-            </div>
-          </div>
+          <InfoCard number="1" text1="years of" text2="experience" />
+          <InfoCard number="5" text1="completed" text2="projects" />
         </div>
       </div>
     </div>
