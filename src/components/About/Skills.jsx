@@ -6,7 +6,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 const Skills = () => {
   return (
-    <div className="text-grey-dark ">
+    <div>
       <h2 className="uppercase text-xl font-semibold mb-10 sm:mb-12 sm:text-2xl md:text-[26px] sm:text-center">
         my skills
       </h2>

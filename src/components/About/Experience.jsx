@@ -4,7 +4,7 @@ import ExperienceCard from "./other/ExperienceCard";
 
 const Experience = () => {
   return (
-    <div className="text-grey-dark">
+    <div>
       <h2 className="text-xl font-semibold uppercase mb-10 sm:mb-12 sm:text-2xl md:text-[26px] sm:text-center">
         Experience & education
       </h2>

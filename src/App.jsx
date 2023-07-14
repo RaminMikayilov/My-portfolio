@@ -8,16 +8,18 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
-      <ThemeSwitcher />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Navbar />
-    </BrowserRouter>
+    <div className="text-grey-dark">
+      <BrowserRouter>
+        <ThemeSwitcher />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Navbar />
+      </BrowserRouter>
+    </div>
   );
 }
 

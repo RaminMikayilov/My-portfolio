@@ -5,7 +5,7 @@ import InfoCard from "./other/InfoCard";
 
 const Personalinfos = () => {
   return (
-    <div className="text-grey-dark">
+    <div>
       <h1 className="uppercase text-center text-4xl sm:text-6xl font-extrabold py-20">
         about <span className="text-orange">me</span>
       </h1>

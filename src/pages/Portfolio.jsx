@@ -5,7 +5,7 @@ import { FaEye } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
-    <div className="text-grey-dark mb-24 lg:mb-16 px-5 max-w-[1200px] mx-auto">
+    <div className="mb-24 lg:mb-16 px-5 max-w-[1200px] mx-auto">
       <h1 className="uppercase text-center text-3xl xs:text-4xl sm:text-6xl font-extrabold py-20">
         my <span className="text-orange">portfolio</span>
       </h1>
