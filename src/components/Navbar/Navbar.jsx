@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link
             key={index}
             to={`${item.path}`}
-            className="p-3 lg:p-4 text-xl rounded-full bg-grey dark:bg-dgrey text-grey-dark dark:text-white duration-300 hover:bg-orange hover:text-white nav__button"
+            className="p-3 lg:p-4 text-xl rounded-full bg-grey dark:bg-dgrey lg:dark:bg-navbg text-grey-dark dark:text-white duration-300 hover:bg-orange hover:text-white nav__button"
           >
             <span className="hidden lg:block nav__text">{item.name}</span>
             {<item.icon />}
