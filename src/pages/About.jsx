@@ -4,11 +4,11 @@ import Experience from "../components/About/Experience";
 
 const About = () => {
   return (
-    <div className="mb-24 lg:mb-16 px-5 max-w-[1200px] mx-auto">
+    <div className="pb-24 lg:pb-16 px-5 max-w-[1200px] mx-auto">
       <Personalinfos />
-      <hr className="w-1/2 mx-auto my-16 lg:my-[73px]" />
+      <div className="w-[40%] mx-auto my-16 lg:my-[73px] border-t-[1px] border-grey dark:border-dgrey"></div>
       <Skills />
-      <hr className="w-1/2 mx-auto my-16 lg:my-[73px]" />
+      <div className="w-[40%] mx-auto my-16 lg:my-[73px] border-t-[1px] border-grey dark:border-dgrey"></div>
       <Experience />
     </div>
   );

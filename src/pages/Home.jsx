@@ -4,11 +4,11 @@ import CoolButton from "../components/CoolButton/CoolButton";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20 mb-20 xs:mb-0">
+    <div className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20 pb-20 xs:pb-0">
       <img
         src={profile}
         alt="Ramin"
-        className="shadow-xl rounded-full w-[230px] h-[230px] sm:w-[270px] sm:h-[270px] object-cover border-4 border-grey md:mb-3 lg:rounded-3xl lg:border-none lg:w-[360px] xl:w-[430px] 2xl:w-[470px] lg:h-[88vh] lg:mb-0 z-10"
+        className="shadow-xl rounded-full w-[230px] h-[230px] sm:w-[270px] sm:h-[270px] object-cover border-4 border-grey dark:border-dgrey md:mb-3 lg:rounded-3xl lg:border-none lg:w-[360px] xl:w-[430px] 2xl:w-[470px] lg:h-[88vh] lg:mb-0 z-10"
       />
 
       <div className="flex items-center flex-col lg:items-start lg:max-w-[500px] xl:max-w-[580px] 2xl:max-w-[620px]">

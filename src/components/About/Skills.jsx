@@ -14,16 +14,31 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-center space-y-3">
             <div className="w-[100px] sm:w-[120px] font-medium">
-              <CircularProgressbar
-                value={skill.percentage}
-                text={`${skill.percentage}%`}
-                strokeWidth={7}
-                styles={buildStyles({
-                  textColor: "#666",
-                  pathColor: "#FFB400",
-                  trailColor: "#EEE",
-                })}
-              />
+              <div className="block dark:hidden">
+                <CircularProgressbar
+                  value={skill.percentage}
+                  text={`${skill.percentage}%`}
+                  strokeWidth={7}
+                  styles={buildStyles({
+                    textColor: "#666",
+                    pathColor: "#FFB400",
+                    trailColor: "#EEE",
+                  })}
+                />
+              </div>
+
+              <div className="hidden dark:block">
+                <CircularProgressbar
+                  value={skill.percentage}
+                  text={`${skill.percentage}%`}
+                  strokeWidth={7}
+                  styles={buildStyles({
+                    textColor: "#FFF",
+                    pathColor: "#FFB400",
+                    trailColor: "#4B4B4B",
+                  })}
+                />
+              </div>
             </div>
             <div className="uppercase">{skill.name}</div>
           </div>

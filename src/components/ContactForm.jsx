@@ -7,17 +7,17 @@ const ContactForm = () => {
       <input
         type="text"
         placeholder="your name"
-        className="placeholder:uppercase px-6 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full"
+        className="placeholder:uppercase px-6 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
       />
       <input
         type="email"
         placeholder="your email"
-        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full"
+        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
       />
       <textarea
         placeholder="your message"
         rows="7"
-        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-3xl w-full"
+        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-3xl w-full dark:bg-navbg dark:border-navbg"
       ></textarea>
 
       <CoolButton text="send message" Icon={FaTelegramPlane} />

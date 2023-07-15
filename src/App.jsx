@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="text-grey-dark">
+    <div className="bg-white dark:bg-dark text-grey-dark dark:text-white min-h-screen">
       <BrowserRouter>
         <ThemeSwitcher />
         <Routes>
