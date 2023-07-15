@@ -4,10 +4,12 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const ProjectCard = ({ name, image, github, live }) => {
   return (
-    <div className="project__card mb-10 rounded-md hover:shadow-md duration-300 mx-auto cursor-pointer">
-      <img src={image} alt={name} />
-      <div className="flex justify-between items-center p-3 bg-grey">
-        <h1 className="font-medium ">{name}</h1>
+    <div className="project__card mb-10 shadow-sm hover:shadow-md duration-300 rounded-lg cursor-pointer">
+      <div className="overflow-hidden">
+        <img src={image} alt={name} className="rounded-t-lg" />
+      </div>
+      <div className="flex justify-between items-center p-4 bg-grey rounded-b-lg border-t-[5px] border-orange">
+        <h1 className="font-semibold">{name}</h1>
         <span className="flex gap-x-2 text-2xl">
           <a
             href={github}
