@@ -1,6 +1,6 @@
 const InfoCard = ({ number, text1, text2 }) => {
   return (
-    <div className="p-5 sm:pl-10 sm:py-7 border-[#ddd] border-[1px] rounded-md hover:shadow-md duration-300">
+    <div className="p-5 sm:pl-10 sm:py-7 border-[#ddd] dark:border-dgrey border-[1px] rounded-md hover:shadow-md duration-300">
       <p className="text-orange text-5xl font-extrabold">
         {number}
         <span className="font-semibold">+</span>

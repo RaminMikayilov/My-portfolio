@@ -16,6 +16,7 @@ export default {
         "grey-dark": "#666",
         orange: "#FFB400",
         dgrey: "#4B4B4B",
+        navbg: "#2B2A2A",
         dark: "#111111",
       },
     },

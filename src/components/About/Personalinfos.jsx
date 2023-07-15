@@ -19,7 +19,7 @@ const Personalinfos = () => {
           <img
             src={profile}
             alt="Ramin"
-            className="rounded-full w-[230px] h-[230px] sm:hidden object-cover border-4 border-grey mx-auto my-5"
+            className="rounded-full w-[230px] h-[230px] sm:hidden object-cover border-4 border-grey dark:border-dgrey mx-auto my-5"
           />
 
           <div className="text-base font-light grid grid-cols-2 gap-y-4 sm:gap-y-5">
