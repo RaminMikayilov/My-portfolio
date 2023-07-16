@@ -2,6 +2,7 @@ import profile from "../../assets/images/profile.jpeg";
 import { FaDownload } from "react-icons/fa";
 import CoolButton from "../CoolButton/CoolButton";
 import InfoCard from "./other/InfoCard";
+import CV from "../../assets/files/RaminMikayilov.pdf";
 
 const Personalinfos = () => {
   return (
@@ -64,7 +65,9 @@ const Personalinfos = () => {
           </div>
 
           <div className="ml-1 my-10">
-            <CoolButton text="download cv" Icon={FaDownload} />
+            <a href={CV} download>
+              <CoolButton text="download cv" Icon={FaDownload} />
+            </a>
           </div>
         </div>
 
