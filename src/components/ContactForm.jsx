@@ -47,7 +47,7 @@ const ContactForm = () => {
         type="text"
         placeholder="your name"
         required
-        className="placeholder:uppercase px-6 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
+        className="placeholder:uppercase px-6 py-3 border-2 border-grey outline-none focus:border-orange dark:focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
@@ -55,7 +55,7 @@ const ContactForm = () => {
         type="email"
         placeholder="your email"
         required
-        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
+        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange dark:focus:border-orange rounded-full w-full dark:bg-navbg dark:border-navbg"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
@@ -63,7 +63,7 @@ const ContactForm = () => {
         placeholder="your message"
         rows="7"
         required
-        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange rounded-3xl w-full dark:bg-navbg dark:border-navbg"
+        className="placeholder:uppercase px-7 py-3 border-2 border-grey outline-none focus:border-orange dark:focus:border-orange rounded-3xl w-full dark:bg-navbg dark:border-navbg"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
