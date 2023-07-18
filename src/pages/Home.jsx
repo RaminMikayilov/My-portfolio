@@ -1,6 +1,7 @@
 import profile from "../assets/images/profile.jpeg";
 import { FaArrowRight } from "react-icons/fa";
 import CoolButton from "../components/CoolButton/CoolButton";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,7 +24,9 @@ const Home = () => {
           responsive and mobile first websites.
         </p>
 
-        <CoolButton text="more about me" Icon={FaArrowRight} />
+        <Link to="/about">
+          <CoolButton text="more about me" Icon={FaArrowRight} />
+        </Link>
       </div>
 
       {/* polygon for background */}
