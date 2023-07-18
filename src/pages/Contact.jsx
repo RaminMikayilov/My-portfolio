@@ -37,7 +37,7 @@ const Contact = () => {
               <a
                 href={item.link}
                 key={index}
-                className="inline-block p-3 text-xl rounded-full bg-grey duration-300 hover:bg-orange hover:text-white dark:bg-navbg"
+                className="inline-block p-3 text-xl rounded-full bg-grey duration-300 hover:bg-orange hover:text-white dark:bg-navbg dark:hover:bg-orange dark:hover:text-white"
               >
                 <item.Icon />
               </a>

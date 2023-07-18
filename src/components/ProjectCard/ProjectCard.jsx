@@ -15,7 +15,7 @@ const ProjectCard = ({ name, image, github, live }) => {
             href={github}
             target="_blank"
             rel="noreferrer"
-            className="hover:text-white hover:bg-orange duration-300 p-2 bg-grey rounded-full dark:bg-dgrey"
+            className="hover:text-white hover:bg-orange duration-300 p-2 bg-slate-300 rounded-full dark:bg-dgrey dark:hover:bg-orange dark:hover:text-white"
           >
             <FaGithub />
           </a>
@@ -23,7 +23,7 @@ const ProjectCard = ({ name, image, github, live }) => {
             href={live}
             target="_blank"
             rel="noreferrer"
-            className="hover:text-white hover:bg-orange duration-300 p-2 bg-grey rounded-full dark:bg-dgrey"
+            className="hover:text-white hover:bg-orange duration-300 p-2 bg-slate-300 rounded-full dark:bg-dgrey dark:hover:bg-orange dark:hover:text-white"
           >
             <BiLinkExternal />
           </a>
