@@ -10,7 +10,7 @@ const Portfolio = () => {
         my <span className="text-orange">portfolio</span>
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7 xl:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7 xl:gap-8">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
