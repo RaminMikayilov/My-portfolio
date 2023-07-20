@@ -35,12 +35,12 @@ const CustomCursor = () => {
       <motion.div
         variants={outline}
         animate="default"
-        className="fixed top-0 left-0 w-[50px] h-[50px] bg-orange border-2 border-white rounded-full opacity-70 pointer-events-none z-50 transition-all ease-out duration-100"
+        className="fixed top-0 left-0 w-[50px] h-[50px] bg-orange border-2 border-white rounded-full opacity-70 pointer-events-none z-50 transition-all ease-out duration-100 hidden xl:block"
       ></motion.div>
       <motion.div
         variants={dot}
         animate="default"
-        className="fixed top-0 left-0 w-[10px] h-[10px] bg-dgrey dark:bg-white rounded-full opacity-60 pointer-events-none z-50"
+        className="fixed top-0 left-0 w-[10px] h-[10px] bg-dgrey dark:bg-white rounded-full opacity-60 pointer-events-none z-50 hidden xl:block"
       ></motion.div>
     </>
   );
