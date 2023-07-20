@@ -1,9 +1,15 @@
 import ContactForm from "../components/ContactForm";
 import { contact, social } from "../data/contact";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="pb-24 lg:pb-16 px-5 max-w-[1200px] mx-auto">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="pb-24 lg:pb-16 px-5 max-w-[1200px] mx-auto"
+    >
       <h1 className="uppercase text-center text-3xl xs:text-4xl sm:text-6xl font-extrabold py-20">
         get in <span className="text-orange">touch</span>
       </h1>
@@ -49,7 +55,7 @@ const Contact = () => {
           <ContactForm />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
