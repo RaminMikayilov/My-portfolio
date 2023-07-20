@@ -2,10 +2,16 @@ import profile from "../assets/images/profile.jpeg";
 import { FaArrowRight } from "react-icons/fa";
 import CoolButton from "../components/CoolButton/CoolButton";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20 pb-20 xs:pb-0">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="min-h-screen flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:pr-8 xl:pr-12 2xl:pr-20 pb-20 xs:pb-0"
+    >
       <img
         src={profile}
         alt="Ramin"
@@ -31,7 +37,7 @@ const Home = () => {
 
       {/* polygon for background */}
       <div className="hidden lg:block [clip-path:polygon(0%_0%,47%_0%,100%_100%,0%_100%)] bg-orange lg:w-[340px] xl:w-[370px] 2xl:w-[400px] h-screen absolute left-0"></div>
-    </div>
+    </motion.div>
   );
 };
 
